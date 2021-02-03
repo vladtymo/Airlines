@@ -17,7 +17,7 @@ namespace DAL.Models
 
         // FOREIGN KEYS
         public int TypeId { get; set; }
-        public int CountryId { get; set; }
+        public int? CountryId { get; set; }
 
         // NAVIGATION PROPERTIES
         public virtual Country Country { get; set; }
